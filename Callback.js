@@ -1,10 +1,22 @@
-const DoSomething = callback => {
-    console.log("Something Doing.....");
-    callback();
+const fetchData = callback => {
+
+      console.log("Data Fetching.....");
+
+      const infoData = {
+        name : "Nakib Hasan Jhalak",
+        designation : "Front-End Developer"
+      }
+
+      setTimeout(()=>{
+        callback(infoData);
+      },2000)
+
 }
 
-const sayHello = () => {
-    console.log("Hello, Nakib Hasan Jhalak");
+const getData = data => {
+    
+      console.log(data);
+
 }
 
-DoSomething(sayHello);
+fetchData(getData);
