@@ -4,6 +4,7 @@ const obj = {
 const Logic = obj => {
     let newObj = {};
     for (let property in obj) {
+        console.log(property)
         newObj[property] = obj[property];
     }
     return newObj;
