@@ -1,12 +1,11 @@
 const sumNumbers = (max) => {
     let sum = 0;
     let count = 0;
-    while (count <= max) {
+    do {
         sum += count;
         count++;
-    }
+    } while (count <= max);
     return sum;
 }
 
-console.log(sumNumbers(5));
-
+console.log(sumNumbers(5)); 
