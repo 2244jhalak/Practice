@@ -1,3 +1,3 @@
-const myMission = "Tomorrow I will start my first Fast";
+const finalMission = "Today I will start my thinkPad project";
 
-console.log(myMission);
+console.log(finalMission);
